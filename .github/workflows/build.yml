@@ -3,7 +3,8 @@ on:
   push:
     branches:
       - master
-      - predev*
+      - predev
+      - devs
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
